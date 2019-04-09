@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="icon_style">
+		<item>QQ风格</item>
+		<item>水果风格</item>
+		<item>可爱萌风格</item>
+		<item>随机</item>
+	</string-array>
+	<string-array name="icon_style_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	<string-array name="choice_style">
+		<item>放大</item>
+		<item>边框</item>
+	</string-array>
+	<string-array name="choice_style_value">
+		<item>0</item>
+		<item>1</item>
+	</string-array>
+</resources>

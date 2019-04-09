@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="43dip"
+    android:id="@+id/titile_layout_ry" 
+    android:background="@drawable/bc_shop2">
+
+
+    <TextView
+        android:id="@+id/title_logo_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:text="欢迎来到连萌商城" />
+<ImageButton
+   		    android:id="@+id/buy_return"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/bc_click"
+            android:background="@null"/> 
+</RelativeLayout>

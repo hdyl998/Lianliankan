@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">趣味连萌</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_text">TextActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_select">SelectActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_introduce_about">IntroduceAboutActivity</string>
+    <string name="title_activity_save">SaveActivity</string>
+    <string name="title_activity_pepole">PepoleActivity</string>
+    <string name="about_1">Copyright © 2014 灰太狼小组</string>
+    <string name="about_introduce_1">本模式主要是连连看游戏中最基本的模式，它的工作原理主要是给定一个时间，进行消除，如果第一关的图片都消除完毕，那么第二关就会减少相应的时间，继续游戏，知道时间完毕，本次游戏就结束了。</string>
+    <string name="about_introduce_2">本模式主要是在时间上的限制比较大，每一关都有自己特定通关条件，只有达到了这个条件才能够继续游戏，而且是每一关都是有时间限制的。所以这关不像经典模式那么不在乎时间，因为只有在规定的时间内达到通关条件，才能够顺利进行游戏。</string>
+    <string name="about_introduce_3">无尽模式，就是如果你在游戏中，可以一直进行游戏，只要你速度够快，就能够一直进行游戏。</string>
+    <string name="about_introduce_4">为了增加游戏的趣味性，我们的游戏将有一些工具，首先第一个就是重新排列，这个是大家都很期待的，在大家找不到可以消除的图片按钮对的时候，就可以点击重新排列功能，让我们的界面重新排列一次，就继续对图片按钮。</string>
+    <string name="about_introduce_5">这项功能非常的强大，能够帮助我们自动的消除一组图片按钮，让我们可以在无法找到消除的时候，重新排列也已经利用完了，那么我们就可以使用炸弹功能，自动的随机找到一组可以消除的图片按钮，进行消除，对我们提高游戏趣味性很强。</string>
+    <string name="about_introduce_6">这项功能也是游戏必备的，如果我们有事情，就必须暂停我们饿游戏，当完成其他事情之后，又可以继续回来完成我们的游戏，这样就不会耽误游戏被强制退出。</string>
+    <string name="about_pepole_1">本系统是由重庆理工大学2011级37专业灰太狼小组编写。</string>
+    <string name="about_pepole_2">小组成员：刘国栋、李新建、杨浩、严颖、向昌军。</string>
+    <string name="about_pepole_3">刘国东：本组的技术组长，主要负责主界面的消除算法、数据据存储、游戏模式的核心算法编写</string>
+    <string name="about_pepole_4">严颖：本组的组长，主要负责本组的任务分配和协调，关于界面的编写，图片位置的设计</string>
+    <string name="about_pepole_5">向昌军：主要负责文档的编写、小组会议的记录和保存界面的编写</string>
+    <string name="about_pepole_6">杨浩：主要负责美工，素材的收集及PS和主界面的设计</string>
+    <string name="about_pepole_7">李新建：主要负责游戏设置、商城、排行榜的编写</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="help_1">如何开始</string>
+    <string name="help_2">加载游戏后，点击"开始游戏"进入模式选择界面点击其中一种模式即可开始游戏。</string>
+    <string name="help_3">游戏规则</string>
+    <string name="help_4">选择两个相同的图标，若连接这2个图标之间的直线不超过3条且不碰到其他图标，则消除连线的2个图标。</string>
+    <string name="help_5">游戏目标</string>
+    <string name="help_6">经典模式中，在一定时间内消除图标，若一副图标消完后时间还有，则继续生成一副图标继续消，直到时间到。</string>
+    <string name="help_7">争分夺秒中，设置了关卡，每道关卡规定在时间限制内消灭完所有图标，则成功闯关。</string>
+    <string name="index_looks_tv">刷新道具X1</string>
+    <string name="index_looks_info_tv">刷新排列X1</string>
+    <string name="index_shopping_tv">提示道具X1</string>
+    <string name="index_shopping_info_tv">获得一次提示机会</string>
+    <string name="index_show_tv">延时道具X1</string>
+    <string name="index_show_info_tv">延时10秒</string>
+    <string name="index_search_tv">炸弹道具X1</string>
+    <string name="index_search_info_tv">消除与其相同的方块</string>
+    <string name="index_browse_tv">更多</string>
+    <string name="index_browse_info_tv">更多道具敬请期待</string>
+    <string name="dialog_quit_title">退出</string>
+    <string name="dialog_back_title">返回</string>
+    <string name="dialog_quit_p">确定</string>
+    <string name="dialog_quit_n">取消</string>
+    <string name="dialog_quit_msg">确认退出游戏？</string>
+    <string name="dialog_back_msg">确认返回到上一页面？</string>
+</resources>

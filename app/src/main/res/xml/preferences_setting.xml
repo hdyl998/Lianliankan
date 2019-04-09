@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="声音设置">
+        <CheckBoxPreference
+            android:icon="@drawable/set_music3"
+            android:key="sound_back"
+            android:summaryOff="关"
+            android:summaryOn="开"
+            android:title="音乐" />
+        <CheckBoxPreference
+            android:icon="@drawable/set_voice3"
+            android:key="sound_effect"
+            android:summaryOff="关"
+            android:summaryOn="开"
+            android:title="音效" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="风格设置">
+        <ListPreference
+            android:dialogTitle="选中风格"
+            android:entries="@array/choice_style"
+            android:entryValues="@array/choice_style_value"
+            android:icon="@drawable/set_s"
+            android:key="choice_style"
+            android:title="选中风格" />
+        <ListPreference
+            android:dialogTitle="图标风格"
+            android:entries="@array/icon_style"
+            android:entryValues="@array/icon_style_value"
+            android:icon="@drawable/set_s"
+            android:key="icon_style"
+            android:title="图标风格" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="其它设置">
+        <CheckBoxPreference
+            android:icon="@drawable/set_s"
+            android:key="icon_align"
+            android:summaryOff="关"
+            android:summaryOn="只有在非勇闯天涯模式下才能开启"
+            android:title="图标自动对齐" />
+    </PreferenceCategory>
+</PreferenceScreen>

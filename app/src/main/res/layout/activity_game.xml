@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/baaa"
+    tools:context=".GameActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dp"
+		 android:paddingRight="3dp"
+		 android:paddingTop="3dp"
+       
+         >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_time" />
+
+        <SeekBar
+            android:id="@+id/seekBar_Time"
+            android:layout_width="0dp"
+            android:max="100"
+            android:progress="100"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/progress_plane"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin" >
+
+         <ImageView 
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+           	android:layout_gravity="center"
+            android:src="@drawable/lv1"
+             />
+        <TextView
+            android:id="@+id/text_level"
+            android:layout_width="30dp"
+   			android:layout_height="wrap_content"
+   			android:textColor="@android:color/white"
+   			android:layout_gravity="center"
+   			android:gravity="center"
+   			android:background="@drawable/tipstyle"
+   			android:text="3"
+   			android:textSize="12sp"/>
+         <ImageView 
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:src="@drawable/score"
+             />
+         <TextView
+            android:id="@+id/text_score"
+            android:layout_width="70dp"
+     	   	android:layout_height="wrap_content"
+   			android:textColor="@android:color/white"
+   			android:layout_gravity="center"
+   			android:gravity="center"
+   			android:background="@drawable/tipstyle"
+   			android:text="3"
+   			android:textSize="12sp"/>
+          <ImageView 
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+           	android:layout_gravity="center"
+            android:src="@drawable/diamond"
+             />
+         <TextView
+            android:id="@+id/text_diamond"
+            android:layout_width="60dp"            
+      	   	android:layout_height="wrap_content"
+   			android:textColor="@android:color/white"
+   			android:layout_gravity="center"
+   			android:background="@drawable/tipstyle"
+   			android:gravity="center"
+   			android:text="3"
+   			android:textSize="12sp"/>
+          <ImageButton
+             	android:id="@+id/btnPauseGame"
+            	android:layout_width="32dp"
+	    		android:layout_height="32dp"
+	    		android:background="@drawable/stop"
+	    		android:layout_marginRight="0dp"
+             />
+    </LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/layout_tool"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingBottom="3dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true" >
+         <ImageButton
+             	android:id="@+id/btnRefreshGame"
+            	android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:background="@drawable/refresh"
+             />
+        	    <TextView android:id="@+id/textRefreshNum"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:background="@drawable/tipstyle"
+    			android:textColor="@android:color/white"
+    			android:text="3"
+    			android:textSize="12sp"/>
+            <ImageButton
+             	android:id="@+id/btnRemindGame"
+            	android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:background="@drawable/tishi"
+             />
+                <TextView android:id="@+id/textRemindNum"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:background="@drawable/tipstyle"
+    			android:textColor="@android:color/white"
+    			android:text="3"
+    			android:textSize="12sp"/>
+                <ImageButton
+             	android:id="@+id/btnAddTime"
+            	android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:background="@drawable/tooltime"
+             />
+                 <TextView android:id="@+id/textTimeNum"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:background="@drawable/tipstyle"
+    			android:textColor="@android:color/white"
+    			android:text="3"
+    			android:textSize="12sp"/>
+             <ImageButton
+             	android:id="@+id/btnBomb"
+            	android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:background="@drawable/toolzhadan"
+             />
+              <TextView android:id="@+id/textBombNum"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:background="@drawable/tipstyle"
+    			android:textColor="@android:color/white"
+    			android:text="3"
+    			android:textSize="12sp"/>
+	</LinearLayout>
+		<com.cqut.fruitllk.GameView
+		    android:id="@+id/game_view"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_above="@+id/layout_tool"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentRight="true"
+		    android:layout_below="@+id/linearLayout2" />
+
+		<ImageView
+		    android:id="@+id/imageLoading"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true"
+		    android:layout_centerVertical="true"
+		    android:visibility="gone"
+		    android:background="@drawable/loadingxml" />
+
+</RelativeLayout>

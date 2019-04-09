@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="280dp"
+        android:background="@drawable/notleavelong"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp" >
+
+            <ImageView
+                android:id="@+id/image_dia_result"
+                android:layout_width="150dp"
+                android:layout_height="31dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/point3" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/text_dia_info"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="胜利!15/29"
+                android:textColor="@color/Black"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+       	<LinearLayout
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="wrap_content"
+  	    android:gravity="center_horizontal"
+  	    android:orientation="horizontal"
+  	    android:padding="10dip" >
+
+  	    <ImageButton
+  	        android:id="@+id/btn_dia_quit"
+  	        android:layout_width="60dp"
+  	        android:layout_height="60dp"
+  	        android:layout_marginRight="15dip"
+  	        android:background="@drawable/fruit_5"
+  	        android:src="@drawable/buttons_quit" />
+
+  	    <ImageButton
+  	        android:id="@+id/btn_dia_replay"
+  	  	    android:layout_width="60dp"
+  	        android:layout_height="60dp"
+  	        android:background="@drawable/fruit_5"
+  	        android:src="@drawable/buttons_replay" />
+
+  	    <ImageButton
+  	        android:id="@+id/btn_dia_next"
+  	         android:layout_width="60dp"
+  	        android:layout_height="60dp"
+  	        android:layout_marginLeft="15dip"
+  	        android:background="@drawable/fruit_5"
+  	        android:src="@drawable/buttons_next" />
+  	</LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
